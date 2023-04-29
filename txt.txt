@@ -1,0 +1,31 @@
+  // document.getElementById("btn2").addEventListener("click", fun2);
+  // document.getElementById("dbtn2").addEventListener("click", dfun2);
+
+  let count2 = 1;
+
+  const fun2 = () => {
+    if (count2 < 50) {
+      ++count2;
+      const btndiv = document.getElementById("btndiv2");
+      var division = document.createElement("div");
+      var input = document.createElement("input");
+      input.setAttribute("id", "2-" + count2);
+      input.type = "text";
+      division.appendChild(input);
+      btndiv.appendChild(division);
+    } else {
+      alert("Can't add more than 50 inputs!");
+    }
+  };
+
+  const dfun2 = () => {
+  // funciton dfun2(){
+    if (count2 !== 1) {
+      --count2;
+      const btndiv = document.getElementById("btndiv2");
+      let last = btndiv.childNodes[btndiv.childNodes.length - 1];
+      last.parentNode.removeChild(last);
+    } else {
+      alert("Can't remove the last input field!");
+    }
+  };

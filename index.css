@@ -1,0 +1,112 @@
+/* body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+   */
+  @keyframes animate {
+    0% {
+        background-color: #C4DDFF;
+    }
+  
+    25% {
+        background-color: #FFDAAF;
+    }
+  
+    50% {
+        background-color: #F4BFBF;
+    }
+  
+    75% {
+        background-color: #CDF0EA;
+    }
+  
+    100% {
+        background-color: #B4CFB0;
+    }
+  }
+  
+  body {
+    animation: animate 5s linear infinite;
+    padding: 0;
+    margin: 70px 50px;
+    /* background-color: rgb(167, 150, 252); */
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  
+  
+  .exp {
+    /* animation: animate 5s linear infinite; */
+    background-color: white;
+    margin: 2%;
+    padding: 5%;
+    border: 2px solid rgb(11, 10, 10);
+    border-radius: 20px;
+    /* position: sticky; */
+  }
+  
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label,
+  input {
+  
+    padding: 6px;
+    margin: 5px;
+    display: block;
+  }
+  
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    /* display:block; */
+    display: inline;
+    align-items: center;
+  }
+  
+  .button {
+    width: 15%;
+    border-radius: 5px;
+  }
+  
+  .btndiv {
+    display: block;
+  }
+  
+  .btn {
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  
+  .btn:hover {
+    background-color: black;
+    color: white;
+  
+  }
+  
+  #submitbtn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  #reset:hover {
+    background-color: black;
+    color: white;
+  }
