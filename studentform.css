@@ -1,0 +1,87 @@
+@media only screen and (min-width:150px){
+    body{
+        
+        width:100%;
+    }
+  
+}
+
+@media (min-width:500px) {
+    body{
+        
+        width:40%;
+    }
+  
+}
+
+body{
+    /* animation: animate 5s linear infinite; */
+
+    background-color: #CDF0EA;
+    /* border: 2px solid black; */
+    border-radius: 3%;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+  
+}
+
+form{
+    margin: 2%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 5%;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+#school,#section,#idgender{
+   text-align: center;
+    float: right;
+    width:50% ;
+}
+
+#firstname,#lastname{
+    float: right;
+    width:50% ;
+}
+
+
+
+label{
+    margin: 0%;
+    padding: 2%;
+    display: inline-block;
+   
+} 
+
+ input{
+    margin: 1%;
+    padding: 0%;
+    border: 1px solid black;
+    float:right;
+    width: 50%;
+   
+
+} 
+
+
+
+.button {
+    width:15%;
+    border-radius: 10px;
+    /* padding: 0;
+    margin: 0; */
+    display: inline;
+}
+  
+#add,#reset{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
